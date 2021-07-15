@@ -1,3 +1,4 @@
+you can use "code ." to open vs code in current directory from command prompt
 Git commands
 
     //these two commands to set global user name and email
@@ -24,4 +25,7 @@ Git commands
 
     //to check status of our project
     git status
+
+    //to see difference between current file and it's previous commit
+    git diff fileName
 
