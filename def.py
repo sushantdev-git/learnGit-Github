@@ -1,7 +1,13 @@
+#!usr/bin/env python  
+#this is a shabang line
+
+import os
+
+def checkReboot():
+    #returns true if the computer has a pending reboot.
+    return os.path.exist("/run/reboot-required")
 
 def main():
-    pass
     "some changes added here"
-    i = 10
 
 main()
