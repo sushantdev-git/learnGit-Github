@@ -32,3 +32,12 @@ Git commands
     //when you want to commit small changes directly without staging the file
     git commit -a -m "description"
 
+    //to see all the patches that have made to repository
+    git log -p
+
+    //to see a specific patche
+    git show ad27e6c71afdbaa133258adb82cd6c33fe7485f4 (this is patch id)
+
+    //to see how many lines have been added to in each patch
+    git log --stat
+
