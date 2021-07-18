@@ -41,3 +41,15 @@ Git commands
     //to see how many lines have been added to in each patch
     git log --stat
 
+    //to see difference between current files and commited files
+    git diff
+
+    //to add changes to staging area by reviewing them
+    git add -p
+    //in this command git will ask you for each changes do you want to add it staged or not
+
+    //to see difference between current files and staged files
+    git diff --staged
+
+    
+
