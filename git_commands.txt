@@ -27,5 +27,8 @@ Git commands
     git status
 
     //to see difference between current file and it's previous commit
-    git diff fileName
+    git diff fileName.extension
+
+    //when you want to commit small changes directly without staging the file
+    git commit -a -m "description"
 
