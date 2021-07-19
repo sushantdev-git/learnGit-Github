@@ -51,5 +51,8 @@ Git commands
     //to see difference between current files and staged files
     git diff --staged
 
+    //when you want to delete a file you can use
+    git rm filename //after that you have to commit the changes
+
     
 
