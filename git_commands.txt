@@ -54,5 +54,11 @@ Git commands
     //when you want to delete a file you can use
     git rm filename //after that you have to commit the changes
 
+    //when you want to rename a file you can use
+    git mv oldfilename newfilename
+    //this command can also be used to move file in directory
+
+    
+
     
 
