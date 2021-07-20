@@ -51,6 +51,8 @@ Git commands
     //to see difference between current files and staged files
     git diff --staged
 
+    * you should always use extension with a file name
+
     //when you want to delete a file you can use
     git rm filename //after that you have to commit the changes
 
@@ -58,7 +60,11 @@ Git commands
     git mv oldfilename newfilename
     //this command can also be used to move file in directory
 
-    
+    //if you want to ignore some file then you can use
+    echo filename > gitignore
+    git rm --cached filename
+    git commit -m "description"
+    //git will ignore any changes in this file.
 
     
 
