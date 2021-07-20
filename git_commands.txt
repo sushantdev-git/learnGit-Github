@@ -66,5 +66,10 @@ Git commands
     git commit -m "description"
     //git will ignore any changes in this file.
 
+    //if you have done some commit and want to change/update that commit then
+     git commit --amend will help
+
+    //if you want to revert the last commit because if cause some issue to the project then
+    git revert HEAD  //because head is pointing to the current snapshot of repository
     
 
