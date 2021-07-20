@@ -71,5 +71,9 @@ Git commands
 
     //if you want to revert the last commit because if cause some issue to the project then
     git revert HEAD  //because head is pointing to the current snapshot of repository
+    //this command do not delete the last commit but add the new commit inverting the last commit
+    //so all the changes in last commit will cancel but history remain there.
+
+    git log -p -2 //will show us the last two patches
     
 
