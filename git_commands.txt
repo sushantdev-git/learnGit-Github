@@ -66,5 +66,9 @@ Git commands
     git commit -m "description"
     //git will ignore any changes in this file.
 
+
+    //if you have done some commit and want to change/update that commit then
+    git commit --amend will help
+
     
 
