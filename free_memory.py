@@ -1,6 +1,6 @@
 #!usr/bin/env python3
 
 def main():
-    pass
+    """Adding a comment which we want to make merge conflict"""
 
 main()
