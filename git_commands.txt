@@ -103,4 +103,10 @@ Git commands
     //to merge two branch (one is which in you are present, and one another branch is which you want to merge to you present branch)
     git merge branch-name
 
-    
+    //if there is some conflict in merge you can check git status
+    and do changes in you file to fix the conflict and then commit
+    which will merge the branch
+
+    git log --graph --oneline
+    //you can use this command to see converging and diverging of branch
+    //with oneline commit statement
