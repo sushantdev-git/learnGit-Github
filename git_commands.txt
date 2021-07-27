@@ -75,5 +75,18 @@ Git commands
     //so all the changes in last commit will cancel but history remain there.
 
     git log -p -2 //will show us the last two patches
+
+
+    //to see the current branch
+    git branch
+
+    //to create new branch
+    git branch new-branch-name
+
+    //to switch to new branch
+    git checkout new-branch-name
+
+    //to create new branch and switch to it
+    git checkout -b new-branch-name
     
 
