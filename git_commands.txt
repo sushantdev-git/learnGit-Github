@@ -90,3 +90,17 @@ Git commands
     git checkout -b new-branch-name
     
 
+    //to delete a branch
+    git branch -d branch-name
+
+    //git have two type of merg
+        Fast forward merge -  when there is no commit in done in any one of the branch(in case to two branch) after creating new branch
+            in this case git directly add new commit on one branch to another branch
+        
+        Three way merge - when there is new commits ammend to branch after creating new branch, then git does three way merge.
+        and in some fashion add new commit on one branch to another branch.
+
+    //to merge two branch (one is which in you are present, and one another branch is which you want to merge to you present branch)
+    git merge branch-name
+
+    
