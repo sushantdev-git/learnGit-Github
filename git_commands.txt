@@ -69,12 +69,22 @@ Git commands
     //if you have done some commit and want to change/update that commit then
      git commit --amend will help
 
+    Rollback
     //if you want to revert the last commit because if cause some issue to the project then
     git revert HEAD  //because head is pointing to the current snapshot of repository
     //this command do not delete the last commit but add the new commit inverting the last commit
     //so all the changes in last commit will cancel but history remain there.
 
     git log -p -2 //will show us the last two patches
+
+    git show 89dfda89ew (commit id)
+    //this will show info about commit
+    //commit id is of 40 char - so you do not have to put 40 char to see commit
+    //you can use initial 4-5 char to get that commit
+
+    git revert 89dfda89ew
+    //this will revert the commit with this id
+    
 
 
     //to see the current branch
