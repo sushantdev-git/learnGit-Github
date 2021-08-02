@@ -120,3 +120,11 @@ Git commands
     git log --graph --oneline
     //you can use this command to see converging and diverging of branch
     //with oneline commit statement
+
+    Github
+    git clone url //to clone a github repo
+    git push //to push the current snapshot of repo
+    git pull //to pull current snapshot of remote repo
+
+    git config --global credential.helper cache //to cache credential so you don'that
+    //have to enter id and password to login to git again again while pusing and pulling repo
