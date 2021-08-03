@@ -168,6 +168,5 @@ Git commands
     git push -u orign branch_name //to push this branch to origin 
     //-u means upstream
 
-    
-
-
+    //to delete remote branch
+    git push --delete origin branch_name
