@@ -128,3 +128,23 @@ Git commands
 
     git config --global credential.helper cache //to cache credential so you don'that
     //have to enter id and password to login to git again again while pusing and pulling repo
+
+
+    git remote // List remote repository
+
+    git remote -v  //List remote reposs  verbosely
+
+    git remote show repo_name // describe single remote repo
+
+    git remote update //fetches the most up-to-date data from repo without merging them
+    //so you can view it later
+
+    git fetch //fetchs all data from repo
+    git fetch [<options>] [<repository> [<refspec>…​]]
+    git fetch [<options>] <group>
+    git fetch --multiple [<options>] [(<repository> | <group>)…​]
+    git fetch --all [<options>]
+
+    //you can also give condition what you want to fetch
+
+    git branch -r //list remote branch
