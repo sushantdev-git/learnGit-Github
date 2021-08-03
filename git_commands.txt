@@ -148,3 +148,16 @@ Git commands
     //you can also give condition what you want to fetch
 
     git branch -r //list remote branch
+
+
+    //fix merge conflict
+    if there conflict you can check what's causing issue by 
+    git log -p origin/master
+
+    then you can fix it by editing the file and then commit.
+
+    //if you use
+    git pull // then it will automatically tries to merge your repo with origin/master
+    //but if it's not then use the above given command to see issue and then fix it.
+
+    
