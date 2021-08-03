@@ -160,4 +160,14 @@ Git commands
     git pull // then it will automatically tries to merge your repo with origin/master
     //but if it's not then use the above given command to see issue and then fix it.
 
+    //if you want to push a new branch
+    //create a new branch from you local branch
+    git checkout -b branch_name
     
+    //add some changes to new branch & then
+    git push -u orign branch_name //to push this branch to origin 
+    //-u means upstream
+
+    
+
+
