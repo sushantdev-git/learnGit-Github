@@ -106,7 +106,7 @@ to create new branch and switch to it\
 to delete a branch\
 `git branch -d branch-name`
 
-git have two type of merg\
+git have two type of merge
 * Fast forward merge -  when there is no commit in done in any one of the branch(in case to two branch) after creating new branch in this case git directly add new commit on one branch to another branch
 
 * Three way merge - when there is new commits ammend to branch after creating new branch, then git does three way merge.and in some fashion add new commit on one branch to another branch.
