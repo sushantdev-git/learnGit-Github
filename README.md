@@ -3,15 +3,15 @@ you can use "code ." to open vs code in current directory from command prompt
 
 #Git commands
 these two commands to set global user name and email
-> git config --global user.name "FIRST_NAME LAST_NAME"
-> git config --global user.email "MY_NAME@example.com"
+> 'git config --global user.name "FIRST_NAME LAST_NAME"'
+> 'git config --global user.email "MY_NAME@example.com"'
 
 to initialize a new git repository in a folder
 > git init
 
-to stage a file in git repository
+to stage a file in git repository\
 this will make git to track changes in file.
-> git add FILE_NAME.extension
+> 'git add FILE_NAME.extension'
 
 //to commit file in git repository
 git commit  //this command will open directory to commit file
