@@ -15,7 +15,7 @@ this will make git to track changes in file.\
 
 to commit file in git repository\
 `git commit` \
-this command will open directory to commit file\\
+this command will open directory to commit file\
 `git commit -m description`\
 always provide userful description in commit message
 
