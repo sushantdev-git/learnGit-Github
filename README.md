@@ -2,9 +2,9 @@
 you can use "code ." to open vs code in current directory from command prompt
 Git commands
 
-    //these two commands to set global user name and email
-    git config --global user.name "FIRST_NAME LAST_NAME"
-    git config --global user.email "MY_NAME@example.com"
+    these two commands to set global user name and email
+    // git config --global user.name "FIRST_NAME LAST_NAME"
+    // git config --global user.email "MY_NAME@example.com"
 
     //to initialize a new git repository in a folder
     git init
