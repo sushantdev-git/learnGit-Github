@@ -1,9 +1,6 @@
 # learnGit-Github
 you can use "code ." to open vs code in current directory from command prompt
 
-# learnGit-Github
-you can use "code ." to open vs code in current directory from command prompt
-
 ## Git commands
 these two commands to set global user name and email\
 `git config --global user.name "FIRST_NAME LAST_NAME"`\
